@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: asl-api
+    env: python
+    buildCommand: ""
+    startCommand: python cam.py
+    plan: free
